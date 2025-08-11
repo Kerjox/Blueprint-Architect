@@ -3,17 +3,15 @@ package blueprint_architect;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 import static blueprint_architect.BlueprintArchitect.MODID;
-import static blueprint_architect.block.ModBlocks.BLOCKS;
-import static blueprint_architect.item.ModItems.*;
+import static blueprint_architect.item.ModItems.ITEMS;
+import static blueprint_architect.item.ModItems.TEST_ITEM;
 
 public class CreativeTabs {
 
@@ -35,10 +33,11 @@ public class CreativeTabs {
 
     // Add the example block item to the building blocks tab
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            for (RegistryObject<Item> item : ITEMS.getEntries()) {
-                event.accept(item.get());
-            }
-        }
+        return;
+//        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+//            for (RegistryObject<Item> item : ITEMS.getEntries()) {
+//                event.accept(item.get());
+//            }
+//        }
     }
 }

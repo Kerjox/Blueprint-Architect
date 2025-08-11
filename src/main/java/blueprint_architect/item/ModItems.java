@@ -23,5 +23,5 @@ public class ModItems {
             ModBlocks.TEST_BLOCK.get(), new Item.Properties().setId(ITEMS.key("test_block_item"))));
 
     public static final RegistryObject<Item> RAW_TEST_BLOCK_ITEM = ITEMS.register("raw_test_block_item", () -> new BlockItem(
-            ModBlocks.TEST_BLOCK.get(), new Item.Properties().setId(ITEMS.key("raw_test_block_item"))));
+            ModBlocks.RAW_TEST_BLOCK.get(), new Item.Properties().setId(ITEMS.key("raw_test_block_item"))));
 }
