@@ -143,7 +143,6 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-
     // Forge 1.21.6+ uses EventBus 7, which shifts most of its runtime validation to compile-time via an annotation processor
     // to improve performance in production environments. This line is required to enable said compile-time validation
     // in your development environment, helping you catch issues early.
@@ -188,12 +187,12 @@ tasks.named('processResources', ProcessResources) {
 tasks.named('jar', Jar) {
     manifest {
         attributes([
-            'Specification-Title'     : mod_id,
-            'Specification-Vendor'    : mod_authors,
-            'Specification-Version'   : '1', // We are version 1 of ourselves
-            'Implementation-Title'    : project.name,
-            'Implementation-Version'  : project.jar.archiveVersion,
-            'Implementation-Vendor'   : mod_authors
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1', // We are version 1 of ourselves
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : mod_authors
         ])
 //        attributes['MixinConfigs'] = "${mod_id}.mixins.json"
     }
