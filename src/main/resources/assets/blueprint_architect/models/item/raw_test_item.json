@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "blueprint_architect:item/raw_test_item"
+  }
+}

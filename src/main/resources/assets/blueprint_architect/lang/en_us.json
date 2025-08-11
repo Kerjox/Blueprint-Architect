@@ -1,0 +1,7 @@
+{
+  "item_group.blueprint_architect.creative_tab": "Blueprint Architect",
+  "item.blueprint_architect.test_item": "Test item",
+  "item.blueprint_architect.raw_test_item": "Raw Test item",
+  "block.blueprint_architect.test_block": "Test block",
+  "block.blueprint_architect.raw_test_block": "Raw Test block"
+}
