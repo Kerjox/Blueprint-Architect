@@ -24,4 +24,7 @@ public class ModBlocks {
                     .strength(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> BLUEPRINT_BUILDER_BLOCK = BLOCKS.register("blueprint_builder_block", () -> new Block(
+            Block.Properties.of().setId(BLOCKS.key("blueprint_builder_block"))));
 }

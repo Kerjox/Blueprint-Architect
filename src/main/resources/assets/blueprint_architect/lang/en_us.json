@@ -1,7 +1,8 @@
 {
-  "item_group.blueprint_architect.creative_tab": "Blueprint Architect",
+  "creativetab.blueprint_architect.creative_tab": "Blueprint Architect",
   "item.blueprint_architect.test_item": "Test item",
   "item.blueprint_architect.raw_test_item": "Raw Test item",
   "item.blueprint_architect.test_block_item": "Test block",
-  "item.blueprint_architect.raw_test_block_item": "Raw Test block"
+  "item.blueprint_architect.raw_test_block_item": "Raw Test block",
+  "item.blueprint_architect.blueprint_builder_block_item": "Blueprint Builder"
 }

@@ -3,6 +3,7 @@ package blueprint_architect;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,12 +18,13 @@ public class CreativeTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab", () -> CreativeModeTab.builder()
             // Set name of tab to display
-            .title(Component.translatable("item_group." + MODID + ".creative_tab"))
+            .title(Component.translatable("creativetab." + MODID + ".creative_tab"))
             // Set icon of creative tab
             .icon(() -> new ItemStack(TEST_ITEM.get()))
             // Add default items to tab
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .displayItems((params, output) -> {
                 for (RegistryObject<Item> item : ITEMS.getEntries()) {
                     output.accept(item.get());
