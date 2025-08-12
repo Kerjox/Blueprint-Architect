@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "blueprint_architect:raw_test_item",
+  "result": {
+    "id": "blueprint_architect:test_item"
+  },
+  "experience": 0.1,
+  "cookingtime": 200,
+  "group": "misc"
+}

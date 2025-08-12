@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": "blueprint_architect:test_item"
+    },
+    "result": {
+        "id": "blueprint_architect:test_block_item",
+        "count": 1
+    },
+    "group": "misc"
+}
