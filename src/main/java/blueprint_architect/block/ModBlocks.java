@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RAW_TEST_BLOCK = BLOCKS.register("raw_test_block", () -> new Block(
             Block.Properties.of().setId(BLOCKS.key("raw_test_block"))
-                    .strength(2f)
+                    .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
 

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "blueprint_architect:test_block",
+    "blueprint_architect:raw_test_block"
+  ]
+}
