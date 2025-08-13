@@ -27,4 +27,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> BLUEPRINT_BUILDER_BLOCK_ITEM = ITEMS.register("blueprint_builder_block_item", () -> new BlockItem(
             ModBlocks.BLUEPRINT_BUILDER_BLOCK.get(), new Item.Properties().setId(ITEMS.key("blueprint_builder_block_item"))));
+
+    public static final RegistryObject<Item> ALEXANDRITE_ORE = ITEMS.register("alexandrite_ore", () -> new BlockItem(
+            ModBlocks.ALEXANDRITE_ORE.get(), new Item.Properties().setId(ITEMS.key("alexandrite_ore"))));
+
+    public static final RegistryObject<Item> DEEPSLATE_ALEXANDRITE_ORE = ITEMS.register("deepslate_alexandrite_ore", () -> new BlockItem(
+            ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), new Item.Properties().setId(ITEMS.key("deepslate_alexandrite_ore"))));
+
 }
