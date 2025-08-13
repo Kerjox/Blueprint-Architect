@@ -13,17 +13,17 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BlueprintArchitect.MODID);
 
-    public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> new Item(
-                    new Item.Properties().setId(ITEMS.key("test_item"))));
+    public static final RegistryObject<Item> ALEXANDRITE_ITEM = ITEMS.register("alexandrite_item", () -> new Item(
+                    new Item.Properties().setId(ITEMS.key("alexandrite_item"))));
 
-    public static final RegistryObject<Item> RAW_TEST_ITEM = ITEMS.register("raw_test_item", () -> new Item(
-            new Item.Properties().setId(ITEMS.key("raw_test_item"))));
+    public static final RegistryObject<Item> RAW_ALEXANDRITE_ITEM = ITEMS.register("raw_alexandrite_item", () -> new Item(
+            new Item.Properties().setId(ITEMS.key("raw_alexandrite_item"))));
 
-    public static final RegistryObject<Item> TEST_BLOCK_ITEM = ITEMS.register("test_block_item", () -> new BlockItem(
-            ModBlocks.TEST_BLOCK.get(), new Item.Properties().setId(ITEMS.key("test_block_item"))));
+    public static final RegistryObject<Item> ALEXANDRITE_BLOCK_ITEM = ITEMS.register("alexandrite_block_item", () -> new BlockItem(
+            ModBlocks.ALEXANDRITE_BLOCK.get(), new Item.Properties().setId(ITEMS.key("alexandrite_block_item"))));
 
-    public static final RegistryObject<Item> RAW_TEST_BLOCK_ITEM = ITEMS.register("raw_test_block_item", () -> new BlockItem(
-            ModBlocks.RAW_TEST_BLOCK.get(), new Item.Properties().setId(ITEMS.key("raw_test_block_item"))));
+    public static final RegistryObject<Item> RAW_ALEXANDRITE_BLOCK_ITEM = ITEMS.register("raw_alexandrite_block_item", () -> new BlockItem(
+            ModBlocks.RAW_ALEXANDRITE_BLOCK.get(), new Item.Properties().setId(ITEMS.key("raw_alexandrite_block_item"))));
 
     public static final RegistryObject<Item> BLUEPRINT_BUILDER_BLOCK_ITEM = ITEMS.register("blueprint_builder_block_item", () -> new BlockItem(
             ModBlocks.BLUEPRINT_BUILDER_BLOCK.get(), new Item.Properties().setId(ITEMS.key("blueprint_builder_block_item"))));

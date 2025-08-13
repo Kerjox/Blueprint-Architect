@@ -12,15 +12,15 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BlueprintArchitect.MODID);
 
-    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block", () -> new Block(
+    public static final RegistryObject<Block> ALEXANDRITE_BLOCK = BLOCKS.register("alexandrite_block", () -> new Block(
             Block.Properties.of()
-                    .setId(BLOCKS.key("test_block"))
+                    .setId(BLOCKS.key("alexandrite_block"))
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> RAW_TEST_BLOCK = BLOCKS.register("raw_test_block", () -> new Block(
-            Block.Properties.of().setId(BLOCKS.key("raw_test_block"))
+    public static final RegistryObject<Block> RAW_ALEXANDRITE_BLOCK = BLOCKS.register("raw_alexandrite_block", () -> new Block(
+            Block.Properties.of().setId(BLOCKS.key("raw_alexandrite_block"))
                     .strength(3f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));

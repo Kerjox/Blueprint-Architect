@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blueprint_architect:raw_test_block_item"
+          "name": "blueprint_architect:raw_alexandrite_block_item"
         }
       ],
       "conditions": [
@@ -17,5 +17,5 @@
     }
   ],
   "functions": [],
-  "random_sequence": "blueprint_architect:blocks/raw_test_block"
+  "random_sequence": "blueprint_architect:blocks/raw_alexandrite_block"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "blueprint_architect:item/test_item"
+    "layer0": "blueprint_architect:item/alexandrite_item"
   }
 }

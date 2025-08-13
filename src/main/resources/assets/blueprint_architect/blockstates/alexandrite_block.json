@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blueprint_architect:block/alexandrite_block"
+    }
+  }
+}

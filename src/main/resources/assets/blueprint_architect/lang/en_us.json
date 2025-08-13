@@ -1,8 +1,8 @@
 {
   "creativetab.blueprint_architect.creative_tab": "Blueprint Architect",
-  "item.blueprint_architect.test_item": "Test item",
-  "item.blueprint_architect.raw_test_item": "Raw Test item",
-  "item.blueprint_architect.test_block_item": "Test block",
-  "item.blueprint_architect.raw_test_block_item": "Raw Test block",
+  "item.blueprint_architect.alexandrite_item": "Alexandrite",
+  "item.blueprint_architect.raw_alexandrite_item": "Raw alexandrite",
+  "item.blueprint_architect.alexandrite_block_item": "Alexandrite block",
+  "item.blueprint_architect.raw_alexandrite_block_item": "Raw alexandrite block",
   "item.blueprint_architect.blueprint_builder_block_item": "Blueprint Builder"
 }
