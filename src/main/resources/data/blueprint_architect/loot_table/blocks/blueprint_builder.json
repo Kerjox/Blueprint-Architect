@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blueprint_architect:blueprint_builder_block_item"
+          "name": "blueprint_architect:blueprint_builder"
         }
       ],
       "conditions": [
@@ -17,5 +17,5 @@
     }
   ],
   "functions": [],
-  "random_sequence": "blueprint_architect:blocks/blueprint_builder_block"
+  "random_sequence": "blueprint_architect:blocks/blueprint_builder"
 }

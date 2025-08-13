@@ -11,7 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 import static blueprint_architect.BlueprintArchitect.MODID;
-import static blueprint_architect.item.ModItems.ALEXANDRITE_ITEM;
+import static blueprint_architect.item.ModItems.alexandrite;
 import static blueprint_architect.item.ModItems.ITEMS;
 
 public class CreativeTabs {
@@ -22,7 +22,7 @@ public class CreativeTabs {
             // Set name of tab to display
             .title(Component.translatable("creativetab." + MODID + ".creative_tab"))
             // Set icon of creative tab
-            .icon(() -> new ItemStack(ALEXANDRITE_ITEM.get()))
+            .icon(() -> new ItemStack(alexandrite.get()))
             // Add default items to tab
             .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .displayItems((params, output) -> {

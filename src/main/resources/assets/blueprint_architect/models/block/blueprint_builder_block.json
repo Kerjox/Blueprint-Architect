@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "blueprint_architect:block/blueprint_builder_block/top"
-  }
-}

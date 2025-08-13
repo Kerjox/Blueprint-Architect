@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blueprint_architect:alexandrite_block_item"
+          "name": "blueprint_architect:alexandrite_block"
         }
       ],
       "conditions": [

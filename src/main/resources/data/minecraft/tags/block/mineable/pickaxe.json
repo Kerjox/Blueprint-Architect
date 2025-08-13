@@ -3,6 +3,6 @@
   "values": [
     "blueprint_architect:alexandrite_block",
     "blueprint_architect:raw_alexandrite_block",
-    "blueprint_architect:blueprint_builder_block"
+    "blueprint_architect:blueprint_builder"
   ]
 }

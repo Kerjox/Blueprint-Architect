@@ -6,10 +6,10 @@
         "###"
     ],
     "key": {
-        "#": "blueprint_architect:alexandrite_item"
+        "#": "blueprint_architect:alexandrite"
     },
     "result": {
-        "id": "blueprint_architect:alexandrite_block_item",
+        "id": "blueprint_architect:alexandrite_block",
         "count": 1
     },
     "group": "misc"

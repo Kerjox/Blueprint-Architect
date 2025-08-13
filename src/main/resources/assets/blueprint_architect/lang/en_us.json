@@ -1,10 +1,10 @@
 {
   "creativetab.blueprint_architect.creative_tab": "Blueprint Architect",
-  "item.blueprint_architect.alexandrite_item": "Alexandrite",
-  "item.blueprint_architect.raw_alexandrite_item": "Raw alexandrite",
-  "item.blueprint_architect.alexandrite_block_item": "Alexandrite block",
-  "item.blueprint_architect.raw_alexandrite_block_item": "Raw alexandrite block",
-  "item.blueprint_architect.blueprint_builder_block_item": "Blueprint Builder",
+  "item.blueprint_architect.alexandrite": "Alexandrite",
+  "item.blueprint_architect.raw_alexandrite": "Raw alexandrite",
+  "item.blueprint_architect.alexandrite_block": "Alexandrite block",
+  "item.blueprint_architect.raw_alexandrite_block": "Raw alexandrite block",
+  "item.blueprint_architect.blueprint_builder": "Blueprint Builder",
   "item.blueprint_architect.alexandrite_ore": "Alexandrite ore",
   "item.blueprint_architect.deepslate_alexandrite_ore": "Deepslate alexandrite ore"
 }

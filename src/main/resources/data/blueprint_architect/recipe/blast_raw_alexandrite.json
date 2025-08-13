@@ -1,8 +1,8 @@
 {
     "type": "minecraft:blasting",
-    "ingredient": "blueprint_architect:raw_alexandrite_item",
+    "ingredient": "blueprint_architect:raw_alexandrite",
     "result": {
-        "id": "blueprint_architect:alexandrite_item"
+        "id": "blueprint_architect:alexandrite"
     },
     "experience": 0.1,
     "cookingtime": 100,
